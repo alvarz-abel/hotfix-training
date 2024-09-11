@@ -20,7 +20,7 @@ public class ProductController {
         products.add(new Product(2,"Frijol",8.00));
         products.add(new Product(3,"Maiz",5.00));
         products.add(new Product(4,"Naranjas",12.00));
-        products.add(new Product(5,"Limon por Mano",5.00));
+        products.add(new Product(5, "Limon por manos",5.00));
         return ResponseEntity.ok(products);
     }
 }
